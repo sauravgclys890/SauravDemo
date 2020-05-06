@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="SeleniumAutomation.Automation.FactoryPatternTest">
+        <methods>
+          <include name="launchTestAutomationGuruTest"/>
+          <include name="afterMethod"/>
+          <include name="launchYahooTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Automation.FactoryPatternTest -->
+      <class name="SeleniumAutomation.Automation.UserRegistrationTest">
+        <methods>
+          <include name="launch"/>
+          <include name="productSearch"/>
+          <include name="enterUserInfoAndSubmit"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Automation.UserRegistrationTest -->
+      <class name="SeleniumAutomation.Automation.NotificationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Automation.NotificationTest -->
+      <class name="SeleniumAutomation.Automation.PageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testLoginPage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Automation.PageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
